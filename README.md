@@ -31,7 +31,7 @@ Ideal para integrar en payloads ofuscados o pruebas de penetración.
 ## 🚀 Uso
 
 ```bash
-python3 main_xored2.py <clave_xor> <ip> <puerto>
+python3 app.py <clave_xor> <ip> <puerto>
 ```
 
 ## Salida:
