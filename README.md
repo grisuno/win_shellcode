@@ -1,4 +1,4 @@
-# Windows x64 Reverse TCP Shellcode Generator (XOR-Encoded)
+# 🌞 Windows x64 Reverse TCP Shellcode Generator (XOR-Encoded)
 
 - Description: Windows 11 x64 Reverse TCP Shell
 - Architecture: x64
@@ -34,7 +34,7 @@ Ideal para integrar en payloads ofuscados o pruebas de penetración.
 python3 app.py <clave_xor> <ip> <puerto>
 ```
 
-## Salida:
+## ✉️ Salida:
 - Opcodes en formato \x41\x42\x43... listos para usar.
 - Tamaño del shellcode.
 - Clave usada.
@@ -45,7 +45,15 @@ python3 app.py <clave_xor> <ip> <puerto>
 - ✅ Clave XOR configurable (hex o decimal).
 - ✅ Generación automática del valor
 
-## DISCALIMER: No soy el creador del shellcode este fue encontrado en exploit-db, no me hago responsable del uso que le des. Este script es solo para fines educativos y pruebas de penetración autorizadas. o con fines eticos de ejercicios deemulacion de adversario, redteam o pentesting. incluso para estos fines la herramienta no tiene nigun tipo de responsabilidad por parte de los autores originales o por mi parte. es de uso publico.
+## 🧩 Cómo funciona
+- El script toma la IP, puerto y clave XOR.
+- Calcula el valor r9 necesario para connect() en formato little-endian.
+- Inserta ese valor en el código ensamblador.
+- Ensambla el código con keystone.
+- Aplica XOR byte a byte al shellcode resultante.
+- Imprime el payload ofuscado y lo guarda en shellcode.txt.
+
+## ⚠️ DISCALIMER: No soy el creador del shellcode este fue encontrado en exploit-db, no me hago responsable del uso que le des. Este script es solo para fines educativos y pruebas de penetración autorizadas. o con fines eticos de ejercicios deemulacion de adversario, redteam o pentesting. incluso para estos fines la herramienta no tiene nigun tipo de responsabilidad por parte de los autores originales o por mi parte. es de uso publico.
 
 ## 📚 Créditos
 - Autor original del shellcode: hvictor (Victor Huerlimann) – GitHub
@@ -53,7 +61,7 @@ python3 app.py <clave_xor> <ip> <puerto>
 - Adaptación y ofuscación: grisun0
 - Shellcode original: Exploit-DB 52298
 
-## Special thanks 
+## 😃 Special thanks 
 to wetw0rk (Milton Valencia), from whom I drew inspiration for the indicated parts of the code: https://github.com/wetw0rk/Sickle
 
 
