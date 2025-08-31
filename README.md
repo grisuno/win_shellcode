@@ -45,9 +45,13 @@ python3 app.py <clave_xor> <ip> <puerto>
 - ✅ Clave XOR configurable (hex o decimal).
 - ✅ Generación automática del valor
 
-## DISCALIMER: No soy el creador del shellcode este fue encontrado en exploit-db, no me hago responsable del uso que le des. solo es para fines educativos. o con fines eticos de ejercicios deemulacion de adversario, redteam o pentesting. incluso para estos fines la herramienta no tiene nigun tipo de responsabilidad por parte de los autores originales o por mi parte. es de uso publico.
+## DISCALIMER: No soy el creador del shellcode este fue encontrado en exploit-db, no me hago responsable del uso que le des. Este script es solo para fines educativos y pruebas de penetración autorizadas. o con fines eticos de ejercicios deemulacion de adversario, redteam o pentesting. incluso para estos fines la herramienta no tiene nigun tipo de responsabilidad por parte de los autores originales o por mi parte. es de uso publico.
 
-
+## 📚 Créditos
+- Autor original del shellcode: hvictor (Victor Huerlimann) – GitHub
+- Inspiración adicional: wetw0rk (Milton Valencia) – Sickle
+- Adaptación y ofuscación: grisun0
+- Shellcode original: Exploit-DB 52298
 
 ## Special thanks 
 to wetw0rk (Milton Valencia), from whom I drew inspiration for the indicated parts of the code: https://github.com/wetw0rk/Sickle
