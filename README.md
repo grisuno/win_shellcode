@@ -53,7 +53,7 @@ python3 app.py <clave_xor> <ip> <puerto>
 - Aplica XOR byte a byte al shellcode resultante.
 - Imprime el payload ofuscado y lo guarda en shellcode.txt.
 
-## ⚠️ DISCALIMER: No soy el creador del shellcode este fue encontrado en exploit-db, no me hago responsable del uso que le des. Este script es solo para fines educativos y pruebas de penetración autorizadas. o con fines eticos de ejercicios deemulacion de adversario, redteam o pentesting. incluso para estos fines la herramienta no tiene nigun tipo de responsabilidad por parte de los autores originales o por mi parte. es de uso publico.
+## ⚠️ DISCALIMER: No soy el creador del shellcode este fue encontrado en exploit-db, no me hago responsable del uso que le des. Este script es solo para fines educativos y pruebas de penetración autorizadas. o con fines eticos de ejercicios de emulación de adversario, redteam o pentesting. incluso para estos fines la herramienta no tiene nigún tipo de responsabilidad por parte de los autores originales o por mi parte.
 
 ## 📚 Créditos
 - Autor original del shellcode: hvictor (Victor Huerlimann) – GitHub
