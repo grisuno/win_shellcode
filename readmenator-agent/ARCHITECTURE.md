@@ -6,4 +6,6 @@
 
 ## External Imports
 
-- `app.py` -> keystone, socket, sys
+- `app.py` -> `keystone`
+- `app.py` -> `socket`
+- `app.py` -> `sys`
